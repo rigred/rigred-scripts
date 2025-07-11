@@ -7,10 +7,10 @@ You can download and run any script directly from this repository. Find the scri
 ### Example: Running the NUMA Info Script
 ```sh
 # Download the script using curl
-curl -LO https://raw.githubusercontent.com/rigred/rigred-scripts/main/diagnostics/get_numa_info.sh
+curl -LO https://raw.githubusercontent.com/rigred/rigred-scripts/refs/heads/main/diagnostics/get-numa-info.sh
 
 # Or with wget
-wget https://raw.githubusercontent.com/rigred/rigred-scripts/main/diagnostics/get_numa_info.sh
+wget https://raw.githubusercontent.com/rigred/rigred-scripts/refs/heads/main/diagnostics/get-numa-info.sh
 
 # Make it executable
 chmod +x get_numa_info.sh

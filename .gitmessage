@@ -1,33 +1,31 @@
-; ──────────────────────────────────────────────────────────────
-; type(scope): Short imperative subject line            (≤ 50 ch)
-;
-; One blank line is required between subject and body!
-; ──────────────────────────────────────────────────────────────
+# type(scope): Short imperative subject line            (≤ 50 ch)
+#
+# One blank line is required between subject and body!
 
-### Why
+# Why
 
-; _What problem does this change solve?  Context, motivation._
+# _What problem does this change solve?  Context, motivation._
 
-### What
+# What
 
-; _Bullet-point summary of user-visible changes, new files,
-;  removed behaviour, deprecations, etc._
+# _Bullet-point summary of user-visible changes, new files,
+#  removed behaviour, deprecations, etc._
 
-### How
+# How
 
-; _Key implementation notes, algorithms, corner-cases, configs._
+# _Key implementation notes, algorithms, corner-cases, configs._
 
-### Testing
+# Testing
 
-; _Manual steps or automated tests added/updated._
+# _Manual steps or automated tests added/updated._
 
-### Security / Compliance
+# Security / Compliance
 
-; _Any new secrets, ports, permissions, or CVE fixes?  Y / N + details._
+# _Any new secrets, ports, permissions, or CVE fixes?  Y / N + details._
 
-### References
+# References
 
-; Closes #123  ·  Jira INFRA-42  ·  Confluence “Design Spec v1”
+# Closes #123  ·  Jira INFRA-42  ·  Confluence “Design Spec v1”
 
 ---
 
