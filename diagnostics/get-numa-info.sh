@@ -2,7 +2,7 @@
 # =============================================================================
 #  get_numa_info.sh — Collect a comprehensive NUMA topology report
 #
-#  Author  : Jason Bauer  <itsec@your-domain.tld>
+#  Author  : Rigo Reddig
 #  Version : 1.5.0  (2025-07-11)
 #  License : MIT
 # =============================================================================
