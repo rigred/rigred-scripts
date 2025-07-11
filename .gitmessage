@@ -1,42 +1,35 @@
-# ──────────────────────────────────────────────────────────────
-# <type>(<scope>): <concise subject –- 50 chars max, no period>
-#
-# • type  : feat | fix | docs | refactor | perf | test | chore | ci
-# • scope : folder/module or ticket ref (optional)
-#
-# Leave an empty line after the subject!
-#
-########  Why (context / problem)  ###########################################
-#
-#   – What problem or requirement does this change address?
-#
-########  What (solution / changes)  #########################################
-#
-#   – Bullet-point summary of the user-visible changes.
-#   – Mention any removed or deprecated behaviour.
-#
-########  How (implementation notes)  #######################################
-#
-#   – Key design decisions, algorithms, tricky bits worth future reading.
-#   – Flags, env vars, or config files touched.
-#
-########  Testing ############################################################
-#
-#   – Test steps performed or automated tests added/updated.
-#   – State “N/A” if not applicable (but ideally never leave empty).
-#
-########  Security / Compliance ##############################################
-#
-#   – New permissions, ports, secrets, or CVE fixes?  Y/N + details.
-#
-########  Docs / Ticket refs ##################################################
-#
-#   – Links to Jira/GitHub issues, Confluence pages, RFCs, etc.
-#
-########  Footers #############################################################
-#
-# Signed-off-by: Your Name <you@example.com>
-# Reviewed-by:   <optional reviewers>
-# Co-authored-by: <optional pair-programmer>
-#
-# ──────────────────────────────────────────────────────────────
+; ──────────────────────────────────────────────────────────────
+; type(scope): Short imperative subject line            (≤ 50 ch)
+;
+; One blank line is required between subject and body!
+; ──────────────────────────────────────────────────────────────
+
+### Why
+
+; _What problem does this change solve?  Context, motivation._
+
+### What
+
+; _Bullet-point summary of user-visible changes, new files,
+;  removed behaviour, deprecations, etc._
+
+### How
+
+; _Key implementation notes, algorithms, corner-cases, configs._
+
+### Testing
+
+; _Manual steps or automated tests added/updated._
+
+### Security / Compliance
+
+; _Any new secrets, ports, permissions, or CVE fixes?  Y / N + details._
+
+### References
+
+; Closes #123  ·  Jira INFRA-42  ·  Confluence “Design Spec v1”
+
+---
+
+Signed-off-by: Your Name <you@example.com>
+Co-authored-by: Optional Name <other@example.com>
