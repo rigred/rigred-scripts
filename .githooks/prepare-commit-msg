@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+template=".gitmessage"
+if [[ -f $template && ! -s $1 ]]; then
+  cat "$template" >> "$1"
+fi
+
